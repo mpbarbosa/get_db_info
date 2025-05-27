@@ -5,9 +5,9 @@ import sqlalchemy
 from pythonping import ping
 from config import load_config
 import terminal
-from dbconnect.dbconfig import DbConfig
-import dbconnect.dbconnect as dbconn
-from dbconnect.sqlalchemy_connection import SqlalchemyConn
+from dbconnect import DbConfig
+import dbconnect as dbconn
+from dbconnect import SqlalchemyConn
 
 
 def connect_database(database=None,databasename=None,lib=None,exec_lvl=0):

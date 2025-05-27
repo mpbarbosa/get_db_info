@@ -1,11 +1,10 @@
-import oracledb
-from .database_connect import DatabaseConn, OracleConn
+from database_connect import DatabaseConn, OracleConn
 from .sqlalchemy_connection import SqlalchemyConn
-from .database_connect import PostgresqlConn
+from database_connect import PostgresqlConn
 import psycopg2
 from config import load_config
 import terminal
-from .dbconfig import DbConfig
+from dbconfig import DbConfig
 
 
 

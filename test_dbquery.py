@@ -1,9 +1,7 @@
 import unittest
 from datetime import date
 import pandas as pd
-from . import database_connect
-from . import dbquery as db
-import terminal
+import dbquery as db
 
 
 class Test_dbquery(unittest.TestCase):
